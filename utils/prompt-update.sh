@@ -1,6 +1,7 @@
 
 # Get git branch.
-source /home/rgaunt/scripts/utils/git.sh
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source "$SCRIPT_DIR/git.sh"
 # Update bash prompt.
 set_bash_prompt() {
     git_branch="$(parse_git_branch)"

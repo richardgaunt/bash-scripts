@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /home/rgaunt/scripts/utils/commands.sh
+source $(HOME)/scripts/utils/commands.sh
 
 # Path for the log file
 LOG_FILE="/var/log/wifi_restart.log"

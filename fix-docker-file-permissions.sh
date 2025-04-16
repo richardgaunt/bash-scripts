@@ -1,3 +1,6 @@
 #!/bin/bash
 
-sudo chown $(USER):docker -R .ahoy.yml ./
+
+fix_docker_permissions() {
+ sudo chown $USER:docker -R .ahoy.yml ./
+}

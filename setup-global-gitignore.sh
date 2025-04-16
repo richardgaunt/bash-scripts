@@ -100,6 +100,13 @@ var/
 /spec/reports/
 /spec/examples.txt
 .rvmrc
+
+
+## Database and content rules
+.data
+*.sql
+*.tar.gz
+*.sql.gz
 EOL
 }
 
